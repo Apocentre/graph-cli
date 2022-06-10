@@ -52,7 +52,7 @@ module.exports = {
     // Support both long and short option variants
     help = help || h
     ipfs = ipfs || i
-    headers = headers || hdr || {}
+    headers = headers || hdr || "{}"
     node = node || g
     outputDir = outputDir || o
     watch = watch || w
